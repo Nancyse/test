@@ -187,9 +187,6 @@ class JDProduct:
 		makeup_effectiveness,who_handly,get_time,number,good_comment_percentage,comment_count) values \
 		('美妆个户','香水彩妆','底妆','{}','{}','{}','{}','{}','{}','{}','{}','{}','{}','{}','{}','{}','{}','{}','{}','{}')".format(self.pro.price,self.pro.totalName,self.pro.productName,self.pro.brand,self.pro.address,self.pro.height,self.pro.suitPeople,self.pro.liveLife,self.pro.color,self.pro.beautiEffect,self.pro.type,self.pro.functionEffect,"Nancyse",now,self.pro.id,self.pro.favourableComment,self.pro.commentNum)
 		self.sql.save_product(insertStrings)
-		
-		
-		
 				
 	#获取京东商品的流程
 	def crawlProductDetail(self):	
